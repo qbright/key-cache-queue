@@ -6,7 +6,7 @@ const sourcemaps = require("rollup-plugin-sourcemaps");
 const serve = require("rollup-plugin-serve");
 const { env } = process.env;
 let config = {
-  input: "./src/input.js",
+  input: "./src/keyCacheQueue.js",
   plugins: [
     resolve(),
     commonjs(),
@@ -16,8 +16,8 @@ let config = {
     })
   ],
   output: {
-    name: "asyncQueue",
-    file: "./dist/asyncQueue.js",
+    name: "KeyCacheQueue",
+    file: "./dist/keyCacheQueue.js",
     format: "umd",
     sourcemap: true
   }
