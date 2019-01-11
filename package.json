@@ -1,0 +1,39 @@
+{
+  "name": "async-queue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "rollup -c -w --environment env:development",
+    "build": "rollup -c --environment env:production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qbright/async-queue.git"
+  },
+  "author": "zqbright",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qbright/async-queue/issues"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-external-helpers": "^7.2.0",
+    "@babel/plugin-transform-regenerator": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/polyfill": "^7.2.5",
+    "@babel/preset-env": "^7.2.3",
+    "rollup-plugin-babel": "^4.3.0",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "rollup-plugin-serve": "^0.6.1",
+    "rollup-plugin-sourcemaps": "^0.4.2",
+    "rollup-plugin-uglify": "^6.0.0"
+  },
+  "homepage": "https://github.com/qbright/async-queue#readme",
+  "dependencies": {},
+  "keywords": []
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"output.js","sources":["../src/input.js"],"sourcesContent":["export default {\n  aaa: () => {\n    console.log(12312);\n  }\n};\n"],"names":["aaa","console","log"],"mappings":";;;;;;AAAA,cAAe;EACbA,EAAAA,GAAG,EAAE,eAAM;EACTC,IAAAA,OAAO,CAACC,GAAR,CAAY,KAAZ;EACD;EAHY,CAAf;;;;;;;;"}
